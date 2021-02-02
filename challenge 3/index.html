@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Challenge 3</title>
+</head>
+<body>
+    <link rel="stylesheet" href="challenge3.css">
+    <script src="challenge3.js"></script>
+
+    <div class="outer-board">
+        <div class="first-row">
+            <div class="home">Home</div>
+            <div class="timer">2:43</div>
+            <div class="visitors">Visitor</div>
+        </div>
+        <div class="second-row">
+            <div class="home-score"></div>
+            <div class="period">Period</div>
+            <div class="period-block"></div>
+            <div class="guest-score"></div>
+        </div>
+        <div class="third-row">
+            <div class="penalty-1">Penalty</div>
+            <div class="penalty-2">Penalty</div>
+        </div>
+        <div class="forth-row">
+            <div class="player-1"></div>
+            <div class="player-2"></div>
+        </div>
+        <div class="big-board">
+            <div class="home-board">
+                <button onclick="addHomeScore()">add home score</button>
+                <button onclick="deductHomeScore()">deduct home score</button>
+                <button onclick="addHomePenalty()">Add home Penalty</button>
+                <button onclick="deleteHomePenalty()">delete home penalty</button>
+            </div>
+            <div class="period-board">
+                <button onclick="addPeriod()">add period</button>
+                <button onclick="deductPeriod()">deduct period</button>
+            </div>
+            <div class="visitor-board">
+                <button onclick="addVisitorScore()">add visitor score</button>
+                <button onclick="deductVisitorScore()">deduct visitor score</button>
+                <button onclick="addVisitorPenalty()">Add Visitor Penalty</button>
+                <button onclick="deleteVisitorPenalty()">delete visitor penalty</button>
+            </div>
+        </div>
+        <div class="reset">
+            <button onclick="reset()">reset</button>
+        </div>
+
+    </div>
+</body>
+</html>

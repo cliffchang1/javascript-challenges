@@ -1,0 +1,138 @@
+.outer-board{
+    display: flex;
+    background-color: darkblue;
+    width: 100%;
+    height: 50%;
+    flex-direction:column;
+}
+.home{
+    font-size: xx-large;
+    color: white;
+    margin-left: 15%;
+}
+.timer{
+    display: flex;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    margin-left: 25%;
+    border: white 15px;
+}
+.visitors{
+    font-size: xx-large;
+    color: white;
+    margin-left: 20%;   
+}
+.first-row{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+}
+.second-row{
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+}
+.home-score{
+    background-color: black;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-left:15%;
+    font-size: x-large;
+    color: white;
+}
+.period{
+    color: white;
+    margin-left: 25%;
+    margin-top: 1%;
+    justify-content: center;
+}
+.period-block{
+    background-color: black;
+    width: 30px;
+    height: 40px;
+    display: flex;
+    margin-left: 1%;
+    margin-top: 1%;
+    color: white;
+}
+.guest-score{
+    background-color: black;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-left:24%;
+    font-size: x-large;
+    color: white;
+}
+.third-row{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.penalty-1{
+    color: white;
+    margin-left: 20%;
+    margin-top: 1%;
+    justify-content: center;
+}
+.penalty-2{
+    color: white;
+    margin-left: 60%;
+    margin-top: 1%;
+    justify-content: center;
+}
+.forth-row{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.player-1{
+    background-color: black;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-left:18%;
+    margin-top: 1%;
+    color: white;
+}
+.player-2{
+    background-color: black;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-left:56%;
+    color:white
+}
+.big-board{
+    display: flex;
+}
+.home-board{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 17%;
+    margin-top: 5px;
+}
+.period-board{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 18%;
+}
+.visitor-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 33%;
+    margin-right: 5%;
+}.reset{
+    display: flex;
+    margin-left: 50%;
+}
