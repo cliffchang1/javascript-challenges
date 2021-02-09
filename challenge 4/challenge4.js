@@ -32,6 +32,6 @@ function division(){
     getValue()
     result = parseInt(firstNumber) / parseInt(secondNumber)
     let remainder = parseInt(firstNumber) % parseInt(secondNumber)
-    document.querySelector(".result").innerHTML = (parseInt(result) + "... remainder" + remainder)
+    document.querySelector(".result").innerHTML = (parseInt(result) + "... remainder " +  remainder)
 
 }
