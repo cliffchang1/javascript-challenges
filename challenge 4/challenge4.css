@@ -18,35 +18,28 @@
     width: 100%;
     height: 15%;
 }
+.function{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .addition{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    background-color: gold;
     width: 50%;
-    height: 10%;
 }
 .subtraction{
-    background-color:lightcoral;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
     width: 50%;
-    height: 10%;
 }
 .multiplication{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    background-color: lime;
     width: 50%;
-    height: 10%;
 }
 .division{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    background-color: mediumorchid;
     width: 50%;
-    height: 10%;
 }
