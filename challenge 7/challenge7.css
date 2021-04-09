@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', 'Ubuntu Mono', 'Fira Mono';
+}
+
+.invis {
+    display: none;
+}
+.my-buttons{
+    background-color: blue;
+    color: orange;
+    width: 20vw;
+    height: 20vh;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.container {
+    height: 100vh;
+    background-image: url('images/welcome-to-hell.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    z-index: -1;
+}
+
+.title {
+    margin-top: 12vh;
+    font-size: 3em;
+}
+
+#car{
+    margin-top: -74vh;
+    margin-right: 70vw;
+    height: 150px
+}
+#test-area {
+    width: 70vw;
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 2em;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: auto;
+    text-align: left;
+    color: rgb(2, 40, 90);
+    overflow: auto;
+    font-size: 1.6em;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .title {
+        font-size: 2em;
+    }
+
+    .test-area {
+        width: 80vw;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #b5e3f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0b7a9c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #006888;
+}
